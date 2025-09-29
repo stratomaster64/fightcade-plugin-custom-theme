@@ -4,7 +4,7 @@ Plugin to customize a theme for your Fightcade client, if the included themes ar
 
 ## Installation
 
-This plugin requires nmur's [fightcade-plugin-manager]("https://github.com/nmur/fightcade-plugin-manager"), so download and install that first.
+This plugin requires nmur's [fightcade-plugin-manager](https://github.com/nmur/fightcade-plugin-manager), so download and install that first.
 From there, insert the `customTheme.js` into your plugin directory, which is located at `Fightcade/fc2-electron/resources/app/inject/plugins` by default.
 Additionally, please make sure that your `config.json` contains the following:
 ```json
@@ -64,4 +64,5 @@ Based on the raw values:
 - All transparent colors are the same as their non-transparent counterparts. For example, #d8bace is the same as (216,186,206) in RGB.
 
 ## Limitations
+
 If you have the [fightcade-plugin-theme-select](https://github.com/stratomaster64/fightcade-plugin-theme-select) plugin installed, you will not see your custom theme unless you set your theme to "default". However, this will not apply to general colors as they are theme-independent.
